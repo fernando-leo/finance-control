@@ -8,13 +8,13 @@ import { CalendarModule } from "primeng/calendar";
 import { IMaskModule } from "angular-imask";
 
 @NgModule({
-  declarations: [EntryListComponent, EntryFormComponent],
   imports: [
     CommonModule,
     EntriesRoutingModule,
     ReactiveFormsModule,
     CalendarModule,
     IMaskModule
-  ]
+  ],
+  declarations: [EntryListComponent, EntryFormComponent]
 })
 export class EntriesModule { }
